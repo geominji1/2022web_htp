@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+      section{background: url(../images/01bgB.jpg) no-repeat center;
+        background-size: cover; 
+        width: 100%; height: 100%;
+    }
+
+            
+
+/* header*/
+.headerWrap{background-color:#ffff73;height: 87px;
+            display: flex; justify-content: center;
+            position: relative;
+}
+.header{position: absolute; width: 980px; height: 87px;}
+.header li{width: calc( 100% / 3 ); float: left; padding: 23px 0;}
+.header form{position: relative;}
+p.title,.icon{position: absolute;top: 48%;transform:translateY(-44%)}
+p.title{font-weight: bold; left: 335px;}
+.icon{right: 370px;}
+.icon{width: 20px;height: 15px;
+    align-items: center;font-size:12px;
+}
+.inp{
+    width: 288px;height: 32px;text-indent: 90px; margin-top: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);  border-radius: 25px;
+}
+.inp:focus{outline:none}
+
+.header h4{font-size: 28px; margin-right: 16px; float: left;}
+.sns a {float: left; padding: 10px 0; margin-right: 3px;}
+
+/* nav */
+.mainMenu{ height: 60px; background-color: #fff;}
+.mainMenu ul{width: 981px;margin: 0 auto;}
+.mainMenu li{float: left;width: calc( 100% / 6 );display: flex;
+             justify-content: center; padding: 19px; position: relative;
+             border-left:1px solid #eee}
+.mainMenu li:last-child{border-right:1px solid #eee}
+
+
+.mainMenu ul li:hover{background:#ffcb31 ;transition:0.3s;}
+.mainMenu li a:hover{color: #ffffff;}
+.mainMenu>ul>li>a:active{background: #ffcb31;}
+
+.mainMenu li a{font-size: 17px; text-align: center;}
+.line01{background-color: #ffcb31;height: 4px;  }
+
+
+
+/* sub01  citytour */
+
+
+
+
+
+
+
+
+
+/* sec01 */
+.contentsMaie{margin-top: 56px;}
+.sec01{width: 982px;height: 532px;margin: 0 auto;}
+.form{width: 482px;height: 300px;background-color: rgb(255, 255, 255);
+    position: relative;float: left;}
+.formSlideWrap{ width: 350px; height: 300px;
+    position: absolute; right: -9px;padding: 10px;}
+.slide01 ul{ }
+.slide01 li{height: 300px;  text-align: center; display: block;}
+
+fieldset{outline:  none ;}
+.slide01 .blind{display: block;position: absolute;left: 0;top: -999px;}
+.slide01 form{width: 300px;margin: 0 auto;}
+.field label{display: block;padding: 5px 0;}.field select{
+            width: 100%;height: 40px;font-size: 1em;
+            padding: 0 1em;
+            border-radius: 3px;
+        }
+.field select:focus{outline: none;}
+.field.date,.field.air{display: flex;position: relative;}
+
+.field div{width: calc( ( 100% - 10px ) / 2 );}
+.field div:nth-of-type(1){margin-right: 10px;}
+.field .inp-field{
+            width: 100%;font-size: 1em;height: 40px;
+            text-align: right;padding: 0 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+.field.date .inp-field:focus{outline: none;}
+button{font-size: 20px; padding: 10px 30px; margin-top: 12px; color: #1f3b96; background-color: #ffcb31; 
+    border-radius: 9px; border: none; cursor: pointer; }
+
+
+
+
+
+
+
+.slideTap{position: absolute;top: 0;width: 150px;height: 100%;}
+.slideTap a.active{background-color: rgb(255, 255, 255);}
+.slideTap a{
+    background: #ffcb31;
+    height:calc( 100% / 4 );border-bottom:  2px solid #d7ab27;
+    display: flex;justify-content: center;align-items: center;}
+.slideTap a:last-child{border-bottom: none}
+.slideTap a:hover{background-color: rgb(255, 255, 255);}
+
+
+
+.bx-wrapper {
+    -moz-box-shadow: 10px 0 0px #ccc;
+    -webkit-box-shadow: 0 0 0px #ccc;
+    box-shadow: 0 0 0px #ccc;
+    border: 0px none;
+    margin-bottom: 0;;
+}
+
+
+
+
+.textWrap{width: 482px;height: 300px; float: left; position: relative;z-index: 3;}
+.text{margin-top: 35px; margin-left: 41px; }
+.text h1{font-size: 64px; }
+.text .line02{width: 83px; height: 5px;background-color: rgb(0, 0, 0);
+                margin-left:260px; margin-bottom: 20px;}
+.text h3{font-size: 28px;line-height: 37px;}
+
+
+
+.textWrap .balloon01{
+    position: absolute; 
+    top:100px; z-index: -10 ; left:100px;
+    animation: bal 2s infinite alternate
+}
+@keyframes bal{ 
+    from{transform: translateY(50px);}
+    to{transform: translateY(3px);}
+}
+
+.content{float: left; padding: 0 15px 0 0;  }
+.content img{padding: 16px 0 0;}
+
+.content .box{position: absolute;background-color:#ffcb31;
+   ;width: 234px; margin-top: -50px;}
+.content ul{padding: 15px;cursor: pointer; }
+.content li{float: left; margin-left: 10px;}
+.content li h3{font-size: 16px; color: rgb(0, 0, 0);}
+.content li h4{font-size: 16px; color: #1f3b96;}
+.content .box img{position: absolute; left: 200px; bottom: 16px; }
+
+
+/* sec02 */
+.sec02{width: 981px;height: 495px;
+            margin: 0 auto; margin-top: 40px;
+}
+
+.travel{padding: 0 15px 0 0;float: left;}
+.sliderWrap{width: 234px;height: 240px; float: left; }
+.sliderbox{position: absolute;background-color:rgba(255, 199, 44, 0.5);
+    width: 234px;bottom: 0; height: 65px;}
+.sliderWrap ul{padding: 15px;cursor: pointer;}
+.sliderWrap li{float: left;margin-left: 10px;}
+.sliderWrap li h3{font-size: 16px; padding: 10px 0;}
+
+
+
+.swiper-button-next{
+    background: url(../images/next01.png) no-repeat;
+   background-position:center; background-size: 100%;
+}
+
+.swiper-button-prev{
+    background: url(../images/prev01.png) no-repeat;
+    background-position:center;background-size: 100%;
+}
+
+
+.swiper-button-next:after,.swiper-button-prev::after{
+    display: none;
+}
+
+
+
+.travel{float: left; padding: 0 15px 0 0;  }
+
+.travel .box{position: absolute;background-color:#ffcb31;
+   ;width: 234px; margin-top: -50px;}
+.travel ul{padding: 15px;cursor: pointer; }
+.travel li{float: left; margin-left: 10px;}
+.travel li h3{font-size: 16px; color: rgb(0, 0, 0);}
+.travel li h4{font-size: 16px; color: #1f3b96;}
+.travel .box img{position: absolute; left: 200px; bottom: 16px; }
+
+.travel:nth-child(4){padding: 0 0 14px ;}
+.travel:nth-child(8){padding:  0;}
+
+
+
+
+/* citytour */
+
+
+
+
+
+/* footer */
+
+.footerWrap{height: 113px;width: 980px;margin: 0 auto;}
+.footerWrap li{float: left; padding: 29px 10px 20px; cursor: pointer; }
+.footerWrap li:first-child{padding: 29px 0 20px;}
+.footerWrap p{font-size: 12px; color: rgb(129, 129, 129);}
+
+
+
+
+
+
+/* common  */
+.container{width: 980px;margin: 0 auto;}
