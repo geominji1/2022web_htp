@@ -1,8 +1,3 @@
-<?php
-include './include/footer.php';
-?>
-
-
 <footer>
 <div class="footerWrap">
     <ul class="clearfix">
